@@ -1,0 +1,17 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.11.15 13:14:44 =~=~=~=~=~=~=~=~=~=~=~=
+login as: v.a.ranjan
+Authenticating with public key "imported-openssh-key" from agent
+Last login: Wed Nov 15 12:52:39 2017 from 10.78.195.140
+]0;v.a.ranjan@NewVoSUP01-brm01:~[v.a.ranjan@NewVoSUP01-brm01 ~]$ cd /tmp
+]0;v.a.ranjan@NewVoSUP01-brm01:/tmp[v.a.ranjan@NewVoSUP01-brm01 tmp]$ cat txt
+Test34
+]0;v.a.ranjan@NewVoSUP01-brm01:/tmp[v.a.ranjan@NewVoSUP01-brm01 tmp]$ [K[v.a.ranjan@NewVoSUP01-brm01 tmp]$ cat txt
+Test34,Test2,Test1
+]0;v.a.ranjan@NewVoSUP01-brm01:/tmp[v.a.ranjan@NewVoSUP01-brm01 tmp]$ pwd
+/tmp
+]0;v.a.ranjan@NewVoSUP01-brm01:/tmp[v.a.ranjan@NewVoSUP01-brm01 tmp]$ =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.11.16 09:50:13 =~=~=~=~=~=~=~=~=~=~=~=
+login as: =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.11.20 08:04:50 =~=~=~=~=~=~=~=~=~=~=~=
+login as: =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.11.20 09:28:20 =~=~=~=~=~=~=~=~=~=~=~=
+login as: =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.11.20 09:34:29 =~=~=~=~=~=~=~=~=~=~=~=
+login as: =~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2017.11.21 10:42:42 =~=~=~=~=~=~=~=~=~=~=~=
+login as: UI-SJBVivek\BRM_Outputs\20171121\LoginToPutty12_85139\BRMPutty1
