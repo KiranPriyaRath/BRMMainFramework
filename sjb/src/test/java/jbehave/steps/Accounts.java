@@ -27,6 +27,11 @@ public class Accounts {
 			Accountspage.CreateNewAccount(accountType);
 			Accountspage.VerifyAccountSummary(accountType);	
 		}	
+		@When("Create account type '$accountType'")
+		public void CreateAccount1(String accountType)  throws InterruptedException, IOException, AWTException{
+			Accountspage.CreateNewAccount(accountType);
+			Accountspage.VerifyAccountSummary(accountType);	
+		}
 		
 		@When("Create QAS account '$accountType'")
 		public void Create_QAS_Account(String accountType)  throws InterruptedException, IOException, AWTException{			

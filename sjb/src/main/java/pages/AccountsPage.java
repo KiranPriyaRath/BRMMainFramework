@@ -180,6 +180,10 @@ public class AccountsPage extends PageObject {
 	WebElementFacade accountTypeIcon;		
 	@FindBy(xpath=".//*[contains(@aria-describedby,'Status')]")
 	WebElement AddressStatusElement;
+	@FindBy(xpath=".//*[contains(@aria-describedby,'Status')]")
+	WebElement AddressStatusElement3;
+	@FindBy(xpath=".//*[contains(@aria-describedby,'Status')]")
+	WebElement AddressStatusElement1;
 
 
 	@FindBy(xpath=".//*[contains(@aria-describedby,'Status')]/input")
@@ -322,7 +326,10 @@ public class AccountsPage extends PageObject {
 				EmailDoamin.type(Email2);
 				ReTypeEamilTextBox.type(Email1);
 				ReTypeEmailDoamin.type(Email2);
-				EmailOK.click();			
+				EmailOK.click();		
+				
+				EmailOK.click();
+				Email1 = Email1+valuenew;
 			}
 
 			
@@ -358,6 +365,7 @@ public class AccountsPage extends PageObject {
 				Thread.sleep(2000);
 				if(!Popup.equalsIgnoreCase("No")){
 					Common.HandleErrorPopUp(Popup);
+					Thread.sleep(1000);
 				}
 
 			}

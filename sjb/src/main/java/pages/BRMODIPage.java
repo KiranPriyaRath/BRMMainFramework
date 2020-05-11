@@ -171,15 +171,15 @@ public class BRMODIPage extends PageObject {
     	if (getDriver().findElement(By.xpath(".//*[@id='shell:browse_region:0:ctb8_mainTab::icon']")).isDisplayed()){       		
     		getDriver().findElement(By.xpath(".//*[@id='shell:browse_region:0:ctb8_mainTab::icon']")).click();
        		Thread.sleep(2000);
-       	}    
-       	else{
-       		report.Info("ExecuteButton element not visisble");
-       		sikuliUtility.SikuliScreenShot(SikulifilePathForSavingFile);
-       		Assert.assertTrue(false);
        	}
+    	else if(getDriver().findElement(By.xpath(".//*[@id='shell:browse_region:0:ctb8']")).isDisplayed()){{
+    		getDriver().findElement(By.xpath(".//*[@id='shell:browse_region:0:ctb8_mainTab::icon']")).click();
+       		Thread.sleep(2000);
+    	
    }
+    	}
 	}
-	
+	}
 	@FindBy(xpath=".//*[@id='shell:dialogRegion:1:execscen_agent::content']")
 	WebElementFacade  AgentSelection;
 	

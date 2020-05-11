@@ -20,6 +20,7 @@ And Promotion is added with 'PostpaidPromotion107785'
 And Update MSISDN by performing 'UpdateMSISDN' on 'RootProductAboutRecord'
 And Update ICCID against 'EnterICCIDInBlankWhiteTripleFormatSim'
 And Reserve Order
+And Reserve Order
 And Perform Credit Vet
 And Submit the Order 'Normal Submit'
 Given Login To Putty 'BRMPutty1' in 'Env'
@@ -61,6 +62,7 @@ When Execute query 'BillNumberCapture'
 And ReLogin with 'ADJUSTADJ' in 'Env'
 And Search The Account ''
 And DrillDown to BillingProfile 'DrillDownToBillingProfile'
+And Submit BillLevel Adjustment 'GoodWillItemCharge'
 And Submit BillLevel Adjustment 'GoodWillItemCharge'
 Given Login To Putty 'BRMPutty2' in 'Env'
 When Verifying Adjustment Done on the Account
